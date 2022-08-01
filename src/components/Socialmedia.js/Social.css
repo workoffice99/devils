@@ -1,0 +1,7 @@
+.social-media {
+  background-image: url("./../../Assets/Social.png");
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  font-size: 2rem;
+}

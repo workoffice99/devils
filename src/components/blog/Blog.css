@@ -1,0 +1,15 @@
+.leftSide {
+  background-image: url("./../../Assets/blogPic1.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-size: 2rem;
+}
+
+.rightSide {
+  background-image: url("./../../Assets/blogPic2.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-size: 2rem;
+}
