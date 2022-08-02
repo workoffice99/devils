@@ -42,7 +42,7 @@ export default function Team() {
                 <img src={Photo} class="d-block w-100" alt="..." />{" "}
               </div>
               <div class="card-body text-center">
-                <h5 class="card-title">Card title 6</h5>
+                <h5 class="card-title">Ancient</h5>
               </div>
             </div>
           </div>
@@ -59,7 +59,7 @@ export default function Team() {
                 />{" "}
               </div>
               <div class="card-body text-center ">
-                <h5 class="card-title">Card title 6</h5>
+                <h5 class="card-title">Legendary</h5>
               </div>
             </div>
           </div>
@@ -70,7 +70,7 @@ export default function Team() {
                 <img src={Photo} class="d-block w-100" alt="..." />{" "}
               </div>
               <div class="card-body text-center">
-                <h5 class="card-title">Card title 6</h5>
+                <h5 class="card-title">Epic</h5>
               </div>
             </div>
           </div>
@@ -81,7 +81,7 @@ export default function Team() {
                 <img src={Photo} class="d-block w-100" alt="..." />{" "}
               </div>
               <div class="card-body text-center">
-                <h5 class="card-title ">Card title 6</h5>
+                <h5 class="card-title ">Rare</h5>
               </div>
             </div>
           </div>
