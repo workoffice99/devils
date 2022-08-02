@@ -32,9 +32,11 @@ export default function Blog() {
           <span>Fun Facts About Tasmanian Devils !</span>
           <div className="bg-dark h-75 opacity-75 p-3 ">
             <p Style="font-size:1rem">
-            Discover the myths, truths and totally wild trivia of these mysterious marsupials.
-Among Australia's collection of one-of-a-kind creatures, the Tasmanian “Tassie” devil is high on the list of stand-out members. Get ready to become an expert on these elusive, sometimes misunderstood cheeky little devils.
-{" "}
+              Discover the myths, truths and totally wild trivia of these
+              mysterious marsupials. Among Australia's collection of
+              one-of-a-kind creatures, the Tasmanian “Tassie” devil is high on
+              the list of stand-out members. Get ready to become an expert on
+              these elusive, sometimes misunderstood cheeky little devils.{" "}
             </p>
             <button
               type="button"
@@ -50,7 +52,11 @@ Among Australia's collection of one-of-a-kind creatures, the Tasmanian “Tassie
           <span>Brief about tasmanian devil</span>
           <div className="bg-dark h-75 opacity-75 p-3">
             <p Style="font-size:1rem">
-            The world's largest surviving carnivorous marsupial, the Tasmanian devil, has a thick-set, squat build, with a relatively large, broad head and short, thick tail. The fur is mostly black, with white markings on the rump, flanks and chest which vary in size and shape; some devils are pure black.{" "}
+              The world's largest surviving carnivorous marsupial, the Tasmanian
+              devil, has a thick-set, squat build, with a relatively large,
+              broad head and short, thick tail. The fur is mostly black, with
+              white markings on the rump, flanks and chest which vary in size
+              and shape; some devils are pure black.{" "}
             </p>
             <button
               type="button"
@@ -215,20 +221,130 @@ Among Australia's collection of one-of-a-kind creatures, the Tasmanian “Tassie
         onHide={handleClose1}
         backdrop="static"
         keyboard={true}
-        dialogClassName="modal-90w"
-        aria-labelledby="example-custom-modal-styling-title"
+        size="xl"
       >
         <Modal.Header closeButton onHide={handleClose1}>
-          <Modal.Title>Modal title</Modal.Title>
+          <Modal.Title>Brief about tasmanian devil</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          I will not close if you click outside me. Don't even try to press
-          escape key.
+          <br />
+          <img src={Model1} width="100%" height="auto"></img>
+          <br /> <br />
+          <b>In Brief About Tasmanian Devils </b> <br /> <br />
+          The world's largest surviving carnivorous marsupial, the Tasmanian
+          devil, has a thick-set, squat build, with a relatively large, broad
+          head and short, thick tail. The fur is mostly black, with white
+          markings on the rump, flanks and chest which vary in size and shape;
+          some devils are pure black. Body size also varies, depending on the
+          diet and habitat. Adult males are larger than adult females and can
+          weigh up to 14 kg and stand about 30 cm high at the shoulder. In the
+          wild Tasmanian devils live up to six years. (not very long ) <br />
+          <br />
+          <b>History Tasmanian devils </b> <br />
+          <br />
+          once occurred on mainland Australia, with fossils having been found
+          widely, but it is believed the devil became extinct on the mainland
+          some 3500 years ago – long before European settlement. While it is not
+          known exactly what happened to the devil on the mainland, it is likely
+          that devils became extinct there due to aridity, changing climate and
+          the spread of the dingo and possibly disease which was prevented from
+          reaching Tasmania by Bass Strait. A necklace made of 178 pierced
+          Tasmanian devil teeth was found at a burial site dated at around 7000
+          years old.
+          <br />
+          <br /> Today the devil is a Tasmanian icon but this hasn’t always been
+          the case.Tasmanian devils were considered a nuisance by early European
+          settlers of Hobart Town, who complained of raids on poultry yards. In
+          1830 the Van Diemen’s Land Co. introduced a bounty scheme to remove
+          devils, as well as Tasmanian tigers and wild dogs, from their
+          northwest properties: 2/6 (25 cents) for male devils and 3/6 (35
+          cents) for females.
+          <br />
+          <br /> For more than a century, devils were trapped and poisoned and
+          they became very rare, seemingly headed for extinction. But the
+          population gradually increased after they were protected by law in
+          June 1941. During 1996 it became evident that Tasmanian devils were
+          again under threat - this time from Devil Facial Tumour Disease
+          (DFTD).
+          <br />
+          <br />
+          <b>Habitat</b> Despite the decline in numbers since the detection of
+          DFTD in the 1990s, populations of Tasmanian devils remain widespread
+          in Tasmania from the coast to the mountains. They live in coastal
+          heath, open dry sclerophyll forest, and mixed sclerophyll-rainforest.
+          Devils also take advantage of the interface between native habitat and
+          agricultural paddocks, where their favourite prey species are often
+          found.
+          <br />
+          <br />
+          <b>Breeding </b>
+          <br />
+          <br /> Devils usually mate between February and May, and after a
+          gestation period of 21 days the young are born. More young are born
+          than can be accommodated in the mother's pouch which has four teats.{" "}
+          <br /> <br /> Although four pouch young sometimes survive, the average
+          number is two or three. Each young, firmly attached to a teat, is
+          carried in the pouch for about four months. After this time, the young
+          start venturing out of the pouch and are then left in a secure, dry
+          den - often a wombat burrow. Young are weaned at eight to nine months
+          of age and have usually left their mother to live alone by late
+          December. These young then typically start breeding at the end of
+          their second year. <br /> <br /> Research has shown that the presence
+          of DFTD in a devil population over several years results in a change
+          of breeding behaviour. Females begin to breed earlier, at one year
+          old, but as they need to be physiologically ready to mate, often they
+          won’t come into oestrus until well after the usual mating period. The
+          result for the population is that there may be females with pouch
+          young for most of the year, and juveniles dispersing from December
+          through to June. This 'precocial breeding' also occurs in other
+          low-density devil populations without DFTD. <br /> <br />
+          <b> Diet</b> <br />
+          <br />
+          The Tasmanian devil is a scavenger and a hunter feeding on whatever
+          animal is available. Powerful jaws and teeth enable it to devour its
+          prey - bones, fur and all. Native animals such as wallabies, possums
+          and wombats are favourites. Various small mammals and birds are eaten
+          - either as carrion or prey. Reptiles, amphibians, insects and even
+          sea squirts have been found in the stomachs of wild devils. Carcasses
+          of sheep and cattle provide food in farming areas. Tasmanian devils
+          maintain bush and farm hygiene by cleaning up carcasses. This can help
+          reduce the risk of blowfly strike to sheep by removing food for
+          maggots.
+          <br />
+          <br />
+          <b> Behaviour </b>
+          <br />
+          <br />
+          The Tasmanian devil is generally nocturnal (active after dark). During
+          the day it usually hides in a den, or dense bush. They roam
+          considerable distances - up to 16 km in one night- along well-defined
+          trails in search of food. Devils usually amble slowly with a
+          characteristic gait but can gallop quickly with both hind feet
+          together. Young Tasmanian devils are more agile than adults and can
+          climb trees. Although not territorial, devils have a home range which
+          can be very large if resources are scarce.
+          <br />
+          <br /> Tasmanian devils are also very good swimmers, however if they
+          have young in the pouch they avoid swimming for more than very short
+          distances. Tasmanian devils actually love water and will wade and
+          splash about, even sitting or lying down in it to stay cool and play.
+          They will often dabble in water with their front paws, somewhat in the
+          manner of racoons.
+          <br />
+          <br /> The famous gape or yawn of the Tasmanian devil that looks so
+          threatening, can be misleading. This display is performed more from
+          fear and uncertainty than from aggression. Despite common perception,
+          Tasmanian devils do not have a strong body odour, but their scats can
+          be very smelly, typical of all carnivores. They have an anal scent
+          gland which they use to mark their presence and they use latrines to
+          gather and disperse information.
+          <br />
+          <br /> The Tasmanian devil makes a variety of fierce noises, from
+          harsh coughs and snarls to high pitched screeches. Many of these
+          vocalisations are bluff and part of a ritual to minimise harmful
+          fighting when feeding communally at a large carcass.
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose1}>
-            Close
-          </Button>
           <Button variant="primary">Understood</Button>
         </Modal.Footer>
       </Modal>
