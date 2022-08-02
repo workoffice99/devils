@@ -47,7 +47,7 @@ export default function Challenege() {
                         </div>
                       </div>
                     </div>
-                    <div class="carousel-item active" data-bs-interval="3000">
+                    <div class="carousel-item " data-bs-interval="3000">
                       <div class="row">
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6">
                           <img src={BannerPic} height="auto" width="100%" />
@@ -67,7 +67,7 @@ export default function Challenege() {
                         </div>
                       </div>
                     </div>
-                    <div class="carousel-item active" data-bs-interval="3000">
+                    <div class="carousel-item " data-bs-interval="3000">
                       <div class="row">
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6">
                           <img src={BannerPic} height="auto" width="100%" />

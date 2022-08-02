@@ -37,7 +37,7 @@ export default function Team() {
         <Carousel responsive={responsive}>
           <div>
             {" "}
-            <div class="card">
+            <div class="card m-5">
               <div class="img-wrapper">
                 <img src={Photo} class="d-block w-100" alt="..." />{" "}
               </div>
@@ -55,7 +55,7 @@ export default function Team() {
           </div>
           <div>
             {" "}
-            <div class="card">
+            <div class="card m-5">
               <div class="img-wrapper">
                 <img
                   src={Photo}
@@ -65,7 +65,7 @@ export default function Team() {
                   alt="..."
                 />{" "}
               </div>
-              <div class="card-body">
+              <div class="card-body ">
                 <h5 class="card-title">Card title 6</h5>
                 <p class="card-text">
                   Some quick example text to build on the card title and make up
@@ -79,7 +79,7 @@ export default function Team() {
           </div>
           <div>
             {" "}
-            <div class="card">
+            <div class="card m-5">
               <div class="img-wrapper">
                 <img src={Photo} class="d-block w-100" alt="..." />{" "}
               </div>
@@ -97,7 +97,7 @@ export default function Team() {
           </div>
           <div>
             {" "}
-            <div class="card">
+            <div class="card m-5">
               <div class="img-wrapper">
                 <img src={Photo} class="d-block w-100" alt="..." />{" "}
               </div>

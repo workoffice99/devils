@@ -6,15 +6,15 @@ const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
     breakpoint: { max: 4000, min: 3000 },
-    items: 5,
+    items: 1,
   },
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
-    items: 3,
+    items: 1,
   },
   tablet: {
     breakpoint: { max: 1024, min: 464 },
-    items: 2,
+    items: 1,
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
@@ -27,10 +27,10 @@ export default function Team() {
     <div className="container">
       <div className="row">
         <div class="col-12 col-lg-12" Style="font-size: 20px;padding-left:0;">
-          <span>MOST RARE CATEGORIES OF DIGI DEVILS CLUB</span>
+          <span>WE ARE NOT ALONE</span>
         </div>
         <div class="col-12 col-lg-12" Style="font-size: 45px;padding-left:0; ">
-          Rarity
+          Partners
         </div>
       </div>
       <div className="row">
@@ -38,11 +38,15 @@ export default function Team() {
           <div>
             {" "}
             <div class="card m-5">
-              <div class="img-wrapper">
-                <img src={Photo} class="d-block w-100" alt="..." />{" "}
+              <div class="img-wrapper d-flex justify-content-center align-content-center">
+                <img src={Photo} width="200px" height="200px" alt="..." />{" "}
               </div>
               <div class="card-body text-center">
-                <h5 class="card-title">Card title 6</h5>
+                <h5 class="card-title">part ner name</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
               </div>
             </div>
           </div>
@@ -50,38 +54,46 @@ export default function Team() {
             {" "}
             <div class="card m-5">
               <div class="img-wrapper">
-                <img
-                  src={Photo}
-                  class="d-block "
-                  width="100%"
-                  height="auto"
-                  alt="..."
-                />{" "}
+                <img src={Photo} width="200px" height="200px" alt="..." />{" "}
               </div>
               <div class="card-body text-center ">
-                <h5 class="card-title">Card title 6</h5>
+                <h5 class="card-title">part ner name</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
               </div>
             </div>
           </div>
           <div>
             {" "}
             <div class="card m-5">
-              <div class="img-wrapper">
-                <img src={Photo} class="d-block w-100" alt="..." />{" "}
+              <div class="img-wrapper d-flex align-items-center justify-content-center">
+                <img src={Photo} width="200px" height="200px" alt="..." />{" "}
               </div>
               <div class="card-body text-center">
-                <h5 class="card-title">Card title 6</h5>
+                <h5 class="card-title">part ner name</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
               </div>
             </div>
           </div>
           <div>
             {" "}
             <div class="card m-5">
-              <div class="img-wrapper">
-                <img src={Photo} class="d-block w-100" alt="..." />{" "}
+              <div class="img-wrapper d- flex justify-content-center">
+                <div>
+                  <img src={Photo} width="200px" height="200px" alt="..." />{" "}
+                </div>
               </div>
               <div class="card-body text-center">
-                <h5 class="card-title ">Card title 6</h5>
+                <h5 class="card-title">part ner name</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
               </div>
             </div>
           </div>

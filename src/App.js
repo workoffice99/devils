@@ -8,6 +8,7 @@ import Team from "./components/Team/Team";
 import Faq from "./components/faq/Faq";
 import Social from "./components/Socialmedia.js/Social";
 import Footer from "./components/Footer/Footer";
+import Check from "./components/check/check";
 import "./App.css";
 
 function App() {
@@ -31,6 +32,9 @@ function App() {
       </div>
       <div className="mt-4">
         <Blog />
+      </div>
+      <div className="mt-4">
+        <Check />
       </div>
       <div className="mt-4">
         <Team />
