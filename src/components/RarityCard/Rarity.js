@@ -14,7 +14,7 @@ const responsive = {
   },
   tablet: {
     breakpoint: { max: 1024, min: 464 },
-    items: 2,
+    items: 1,
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
@@ -42,7 +42,7 @@ export default function Team() {
                 <img src={Photo} class="d-block w-100" alt="..." />{" "}
               </div>
               <div class="card-body text-center">
-                <h5 class="card-title">Card title 6</h5>
+                <h5 class="card-title">ANCIENT</h5>
               </div>
             </div>
           </div>
@@ -59,7 +59,7 @@ export default function Team() {
                 />{" "}
               </div>
               <div class="card-body text-center ">
-                <h5 class="card-title">Card title 6</h5>
+                <h5 class="card-title">LEGENDARY</h5>
               </div>
             </div>
           </div>
@@ -70,7 +70,7 @@ export default function Team() {
                 <img src={Photo} class="d-block w-100" alt="..." />{" "}
               </div>
               <div class="card-body text-center">
-                <h5 class="card-title">Card title 6</h5>
+                <h5 class="card-title">EPIC</h5>
               </div>
             </div>
           </div>
@@ -81,10 +81,32 @@ export default function Team() {
                 <img src={Photo} class="d-block w-100" alt="..." />{" "}
               </div>
               <div class="card-body text-center">
-                <h5 class="card-title ">Card title 6</h5>
+                <h5 class="card-title ">RARE</h5>
               </div>
             </div>
           </div>
+          <div>
+            {" "}
+            <div class="card m-5">
+              <div class="img-wrapper">
+                <img src={Photo} class="d-block w-100" alt="..." />{" "}
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title ">UNCOMMON</h5>
+              </div>
+            </div>
+          </div>
+          {/* <div>
+            {" "}
+            <div class="card m-5">
+              <div class="img-wrapper">
+                <img src={Photo} class="d-block w-100" alt="..." />{" "}
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title ">COMMON FROM RAREST TO COMMON</h5>
+              </div>
+            </div>
+          </div> */}
         </Carousel>
         ;
       </div>

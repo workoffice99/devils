@@ -47,7 +47,7 @@ export default function Blog() {
             </button>
           </div>
         </div>
-        <div class="rightSide col-12 col-sm-12 col-md-12 col-lg-5 p-3 text-white p-5">
+        <div class="rightSide mt-4 mt-lg-0 col-12 col-sm-12 col-md-12 col-lg-5 p-3 text-white p-5">
           {" "}
           <span>Brief about tasmanian devil</span>
           <div className="bg-dark h-75 opacity-75 p-3">
