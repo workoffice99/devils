@@ -8,25 +8,28 @@ export default function Footer() {
   return (
     <div class="container">
       <footer>
-        <div class="row"></div>
-        <div class="col-12 col-lg-4 d-flex flex-column d-lg-flex flex-lg-row justify-content-lg-between">
-          <div class="d-flex align-content-center ">
-            <a href="/">
-              <img src={Logo} width="auto" height="50px" />
-            </a>
+        <div class="row">
+          <div class="col-12 col-lg-6-flex flex-column d-lg-flex flex-lg-row justify-content-lg-between">
+            <div class="d-flex justify-content-center ml-2 ml-lg-0 ">
+              <a href="/">
+                <img src={Logo} width="auto" height="50px" />
+              </a>
+            </div>
+            <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-around justify-content-lg-end align-items-center ">
+              <a href="/">
+                <span class="text-muted ">Help</span>
+              </a>
+              <a href="/">
+                <span class="text-muted">Contact Us</span>
+              </a>
+              <a href="/">
+                <span class="text-muted">Privacy Policy</span>
+              </a>
+            </div>
           </div>
-          <div class="col-12 col-lg-4 d-flex justify-content-lg-center align-content-center ">
-            <a href="/">
-              <span class="text-muted">Help</span>
-            </a>
-            <a href="/">
-              <span class="text-muted">Contact Us</span>
-            </a>
-            <a href="/">
-              <span class="text-muted">Privacy Policy</span>
-            </a>
-          </div>
-          <div class="col-12  col-lg-4 d-flex justify-content-lg-end align-content-center">
+        </div>
+        <div class="row">
+          <div class="col-12 d-flex  justify-content-center align-content-center mr-2 ">
             <div>
               <span>
                 <a class="text-muted" href="#">
