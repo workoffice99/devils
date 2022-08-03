@@ -15,7 +15,7 @@ export default function Footer() {
                 <img src={Logo} width="auto" height="50px" />
               </a>
             </div>
-            <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-around justify-content-lg-end align-items-center ">
+            <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-around justify-content-lg-between align-items-center ">
               <a href="/">
                 <span class="text-muted ">Help</span>
               </a>
