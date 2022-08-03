@@ -24,10 +24,10 @@ function NavbarWeb() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Nav.Link href="#features">NFT</Nav.Link>
+            <Nav.Link href="#pricing">CHALLENGES</Nav.Link>
+            <Nav.Link href="#pricing">READ</Nav.Link>
+            <Nav.Link href="#pricing">PARTNERS</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link href="#deets">

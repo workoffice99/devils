@@ -345,7 +345,9 @@ export default function Blog() {
           fighting when feeding communally at a large carcass.
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="primary">Understood</Button>
+          <Button variant="secondary" onClick={handleClose1}>
+            Close
+          </Button>
         </Modal.Footer>
       </Modal>
     </div>

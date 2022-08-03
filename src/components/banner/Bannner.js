@@ -48,7 +48,7 @@ export default function Banner() {
           Tasmanian Devil has most recently been assessed for The IUCN Red List
           of Threatened Species in 2008 and listed as Endangered.
         </div>
-        <div className="col-12 col-sm-12 col-md-12 col-lg-6 fs-4 fw-bold">
+        <div className="col-12 col-sm-12 col-md-12 col-lg-6 fs-5 fw-bold p-2">
           Tasmanian Devil has most recently been assessed for The IUCN Red List
           of Threatened Species in 2008 and listed as Endangered.
         </div>
