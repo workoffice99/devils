@@ -16,13 +16,13 @@ export default function Footer() {
               </a>
             </div>
             <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-around justify-content-lg-between align-items-center ">
-              <a href="/">
-                <span class="text-muted ">Help</span>
+              <a class="text-decoration-none" href="/">
+                <span class="text-muted  ">Help</span>
               </a>
-              <a href="/">
-                <span class="text-muted">Contact Us</span>
+              <a class="text-decoration-none" href="/">
+                <span class="text-muted ">Contact Us</span>
               </a>
-              <a href="/">
+              <a class="text-decoration-none" href="/">
                 <span class="text-muted">Privacy Policy</span>
               </a>
             </div>
